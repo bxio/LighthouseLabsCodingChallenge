@@ -1,3 +1,3 @@
 function countRows(){
-  return(GRID.length)  // TODO: Refactor with more oomph..
+  return(GRID.length);  // TODO: Refactor with more oomph..
 }
