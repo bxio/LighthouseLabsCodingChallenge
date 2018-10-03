@@ -2,6 +2,8 @@
 
 We found these while datamining.
 
+EDIT: Lighthouse labs deleted our post about finding the bug and removed us from the rankings. After the challenge is finished the repository will be made public.
+
 `
 ["Your code could not run: "Cannot read property 'test' of undefined"", "Your code could not run: "countRows is not defined"", "Your code could not run: "countColumns is not defined"", "Your code could not run: "gridSize is not defined"", "Your code could not run: "totalCells is not defined"", "Your code could not run: "convertColumn is not defined"", "Your code could not run: "lightCell is not defined"", "Your code could not run: "isRock is not defined"", "Your code could not run: "isShip is not defined"", "Your code could not run: "isCurrent is not defined"", "Your code could not run: "lightRow is not defined"", "Your code could not run: "lightColumn is not defined"", "Your code could not run: "lightCell is not defined"", "Your code could not run: "allRocks is not defined"", "Your code could not run: "allShips is not defined"", "Your code could not run: "firstRock is not defined"", "Your code could not run: "firstCurrent is not defined"", "Your code could not run: "shipReport is not defined"", "Your code could not run: "howDangerous is not defined"", "Your code could not run: "percentageReport is not defined"", "Your code could not run: "safetyReport is not defined""]
 `
