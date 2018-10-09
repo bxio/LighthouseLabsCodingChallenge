@@ -14,8 +14,8 @@ function totalCells(){
   return(countRows() * countColumns());
 }
 
-function convertColumn(coordinate){
-  return coordinate.charCodeAt(0) - 65;
+function convertColumn(coordinate) {
+  return coordinate.toUpperCase().charCodeAt(0) - 65;
 }
 
 function lightCell(coordinate){
