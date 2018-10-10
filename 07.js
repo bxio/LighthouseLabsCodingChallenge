@@ -23,5 +23,5 @@ function lightCell(coordinate){
 }
 
 function isRock(coordinate){
-  return true ? lightCell(coordinate) : "^";
+  return lightCell(coordinate)=="^";
 }

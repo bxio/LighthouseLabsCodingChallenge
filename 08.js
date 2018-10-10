@@ -22,10 +22,10 @@ function lightCell(coordinate){
   return GRID[parseInt(coordinate[1])-1][convertColumn(coordinate)];
 }
 
-function isRock(coordinate){
-  return true ? lightCell(coordinate) : "^";
+function isRock(coordinate) {
+  return (lightCell(coordinate) == "^");
 }
 
 function isCurrent(coordinate) {
-  return true ? lightCell(coordinate) : "~";
+  return (lightCell(coordinate) == "~");
 }
