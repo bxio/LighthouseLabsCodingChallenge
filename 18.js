@@ -96,4 +96,4 @@ function shipReport(){//Transport Canada doesn't seem to be asking for a lot.
   return ([allShips()[0],allShips()[allShips().length-1]]);
 }
 
-var howDangerous = (coordinate) => ({'^': 100, '~': 50})[lightCell(coordinate)] || 0; //fancy code is often better, thanks Sam
+var howDangerous = (coordinate) => ({'^': 100, '~': 50})[lightCell(coordinate)] || 0; //fancy code is often better, thanks Sam (Update by Sam: I wouldn't use this in production haha) 
