@@ -28,5 +28,5 @@ The list of questions should be as follows:
 16. [firstCurrent](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/16.js)
 17. [shipReport](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/17.js)
 18. [howDangerous](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/18.js)
-19. [percentageReport](#)
-20. [safetyRep](#)
+19. [percentageReport](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/19.js)
+20. [safetyRep](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/20.js)
