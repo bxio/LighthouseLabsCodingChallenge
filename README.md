@@ -1,3 +1,11 @@
+# Lighthouse Labs 21-Day Coding Challenge
+
+It turns out that this was less of a challenge and more of a popularity contest hosted by LighthouseLabs.
+
+[Team points](https://coding-challenge.lighthouselabs.com/teams/leaderboard) are awarded per participant, Prize leaderboard points are awarded per correct solution. Obviously, teams with more members are heavily favoured.
+
+During the challenge, we discovered a vulnerablilty that allowed us to increase our points temporarily. This was responsibly disclosed and later fixed. ![see here](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/scoreboard.png)
+
 # List of Questions
 
 We found these while datamining.
@@ -30,3 +38,4 @@ The list of questions should be as follows:
 18. [howDangerous](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/18.js)
 19. [percentageReport](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/19.js)
 20. [safetyRep](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/20.js)
+21. [calcDistance](https://github.com/bxio/LighthouseLabsCodingChallenge/blob/master/21.js)
