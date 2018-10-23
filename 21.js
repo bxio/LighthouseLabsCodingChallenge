@@ -101,23 +101,7 @@ function percentageReport(){
   //corner cases, what corner cases? ¯\_(ツ)_/¯
 }
 
-//var howDangerous = (coordinate) => ({"^": 100, "~": 50})[lightCell(coordinate)] || 0;
-//Roger sam, not using dangerous code in production.
-
-function dangerValue(value){
-  if (value === "^"){
-    return 100;
-  } else if (value === "~"){
-    return 50;
-  } else {
-    return 0;
-  }
-}
-
-var howDangerous = (coordinate) => ({
-  '^': 100,
-  '~': 50
-})[lightCell(coordinate)] || 0; //fancy code is often better, thanks Sam (Update by Sam: I wouldn't use this in production haha)
+var howDangerous = (coordinate) => ({"^": 100, "~": 50})[lightCell(coordinate)] || 0; //fancy code is often better, thanks Sam (Update by Sam: I wouldn't use this in production haha)
 
 function safetyReport() {
   return GRID.map(row => row.map(cell => (cell === "^") ? 100 : ((cell === "~") ? 50 : 0)));
@@ -127,7 +111,7 @@ function calcDistance(pointFrom, pointTo) {
 
   var xfrom = pointFrom.toUpperCase().charCodeAt(0) - 65;
   var xto = pointTo.toUpperCase().charCodeAt(0) - 65;
-
+  
   var yfrom = pointFrom[1];
   var yto = pointTo[1];
 
